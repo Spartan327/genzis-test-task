@@ -20,9 +20,9 @@ class AddForm(FlaskForm):
         try:
             split_data = list(map(lambda x: x.strip(), field.data.split(',')))
         except:
-            raise ValidationError("incorrect input")
+            raise ValidationError('incorrect input')
         if len(split_data) > 3:
-            raise ValidationError("too many arguments")
+            raise ValidationError('too many arguments')
         if split_data[0].isdigit():
             raise ValidationError("1'st argument must be string")
         if len(split_data) == 3:

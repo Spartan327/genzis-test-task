@@ -3,3 +3,4 @@ __pycache__
 .vscode
 environments.py
 *.sqlite
+run.sh
