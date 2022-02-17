@@ -1,7 +1,6 @@
-.pyc
+*.pyc
 __pycache__
 migrations/
 .vscode
 environments.py
-.sqlite
-run.sh
+*.sqlite

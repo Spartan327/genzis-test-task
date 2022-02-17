@@ -10,7 +10,8 @@ class AddForm(FlaskForm):
         render_kw={
             "class": "form-control",
             "placeholder": \
-            "enter an 'item' consisting of 1-3 arguments separated by commas"
+            "enter an 'item' consisting of 1-3 arguments separated by commas:"\
+                +" item name, type, count"
             }
         )
     add_item = SubmitField('Add', render_kw={"class":"btn btn-primary"})
