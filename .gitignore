@@ -3,4 +3,5 @@ __pycache__
 migrations/
 .vscode
 environments.py
+.sqlite
 run.sh
