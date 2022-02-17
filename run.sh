@@ -12,7 +12,7 @@ export SECRET_KEY='awEawdae*efsergewr39052jem!sef_efsef,llps'
 export CONFIG_NAME=development
 export FLASK_APP=backend 
 export FLASK_ENV=development
-flask db init
-flask db migrate
-flask db upgrade
+#flask db init
+#flask db migrate
+#flask db upgrade
 flask run

@@ -16,7 +16,7 @@ def create_app():
     ma.init_app(app)
     api = Api(app)
     migrate = Migrate(app, db)
-    
+
     item_schema = ItemModelSchema()
     items_schema = ItemModelSchema(many=True)
 
